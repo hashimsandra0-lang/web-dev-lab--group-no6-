@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Portal — Contact</title>
+ 
+</head>
+<body>
+
+  <nav>
+    <h2 >Student Portal</h2>
+    <ul >
+      <li><a href="index.html">Home</a></li>
+      <li><a href="timetable.html">Timetable</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div >
+    <div >Get In Touch</div>
+    <h1>Contact  & Register</h1>
+  
+    <p>Send us a message or complete the student registration form below.</p>
+  </div>
+
+  <div >
+
+    <!-- ── PART A: Basic Contact Form ── -->
+    <div >
+      <p>Part A</p>
+      <h2>Contact Form</h2>
+
+      <form >
+     
+          <label>
+            Name
+            <input type="text" name="name" placeholder="Your full name" required>
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="you@example.com" required>
+          </label>
+          <label>
+            Message
+            <textarea name="message" placeholder="Write your message here…" required></textarea>
+          </label>
+        
+        <button type="submit" >Send Message</button>
+       
+          ✓ Message sent successfully!
+       
+      </form>
+   
+
+    <!-- ── PART B: Registration Form inside a TABLE ── -->
+    
+      <p>Part B</p>
+      <h2>Student Registration</h2>
+
+      <form >
+        <table>
+          <tr>
+            <td>Full Name:</td>
+            <td><input type="text" name="fullname" placeholder="Jane Doe" required></td>
+          </tr>
+          <tr>
+            <td>Email:</td>
+            <td><input type="email" name="email" placeholder="jane@example.com" required></td>
+          </tr>
+          <tr>
+            <td>Password:</td>
+            <td><input type="password" name="password" placeholder="••••••••" required></td>
+          </tr>
+          <tr>
+            <td>Gender:</td>
+            <td>
+              <div>
+                <label><input type="radio" name="gender" value="male" required> Male</label>
+                <label><input type="radio" name="gender" value="female"> Female</label>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>Courses:</td>
+            <td>
+              <div >
+                <label><input type="checkbox" name="courses" value="html"> HTML</label>
+                <label><input type="checkbox" name="courses" value="css"> CSS</label>
+                <label><input type="checkbox" name="courses" value="js"> JavaScript</label>
+              </div>
+            </td>
+          </tr>
+          <tr class="submit-row">
+            <td></td>
+            <td>
+              <button type="submit" >Register Now</button>
+            </td>
+          </tr>
+        </table>
+        <div >
+          ✓ Registration submitted successfully!
+        </div>
+      </form>
+    </div>
+
+  </div>
+
+
+
+  
+</body>
+</html>
