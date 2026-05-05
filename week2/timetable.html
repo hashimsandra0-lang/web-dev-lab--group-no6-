@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Portal — Timetable</title>
+ 
+</head>
+<body>
+
+  <nav>
+    
+    <ul >
+      <li><a href="index.html">Home</a></li>
+      <li><a href="timetable.html" class="active">Timetable</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div >
+    <div >Semester 1 Schedule</div>
+    <h1>My Weekly Timetable</h1>
+   
+  </div>
+
+  <div >
+    <table border="2">
+      <thead>
+        <tr>
+          <th>Time</th>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+        </tr>
+      </thead>
+      <tbody>
+
+        <!-- 07:30 – 08:15 -->
+        <tr>
+          <td>07:30 – 08:15</td>
+          <td >Mathematics</td>
+          <td >English</td>
+          <td >Mathematics</td>
+          <td >Science</td>
+          <td rowspan="2">History<small>(Double)</small></td>
+        </tr>
+
+        <!-- 08:15 – 09:00  — Math spans 2 rows on Mon -->
+        <tr>
+          <td>08:15 – 09:00</td>
+          <!-- rowspan: Mathematics on Monday covers this slot too -->
+          <td >English</td>
+          <td >ICT</td>
+          <td >English</td>
+          <td >ICT</td>
+        </tr>
+
+        <!-- 09:00 – 09:45 -->
+        <tr>
+          <td>09:00 – 09:45</td>
+          <td rowspan="2">Science<br><small>(double)</small></td>
+          <td >Mathematics</td>
+          <td >Science</td>
+          <td >Mathematics</td>
+          <td >ICT</td>
+        </tr>
+
+        <!-- 09:45 – 10:30  — Science on Mon still (rowspan from above) -->
+        <tr>
+          <td>09:45 – 10:30</td>
+          <!-- Science (rowspan) occupies Monday -->
+          <td >History</td>
+          <td >ICT</td>
+          <td >Science</td>
+          <td >English</td>
+        </tr>
+
+        <!-- SHORT BREAK -->
+        <tr>
+          <td>10:30 – 10:45</td>
+          <td colspan="5" align="center" >Short Break</td>
+          </td>
+        </tr>
+
+        <!-- 10:45 – 11:30 -->
+        <tr>
+          <td>10:45 – 11:30</td>
+          <td >History</td>
+          <td >Science</td>
+          <td >Mathematics</td>
+          <td >English</td>
+          <td >kiswahili</td>
+        </tr>
+
+        <!-- 11:30 – 12:15 -->
+        <tr>
+          <td>11:30 – 12:15</td>
+          <td>ICT</td>
+          <td >kiswahili</td>
+          <td >History</td>
+          <td >kiswahili</td>
+          <td >Mathematics</td>
+        </tr>
+
+        <!-- LUNCH — colspan across all 5 day columns -->
+        <tr>
+          <td>12:15 – 13:15</td>
+          <td colspan="5" align="center">lunch break</span> </td>
+        </tr>
+
+        <!-- 13:15 – 14:00 -->
+        <tr>
+          <td>13:15 – 14:00</td>
+          <td >kiswahili</td>
+          <td>History</td>
+          <td >kiswahili</td>
+          <td>Mathematics</td>
+          <td >Science</td>
+        </tr>
+
+        <!-- 14:00 – 14:45 -->
+        <tr>
+          <td>14:00 – 14:45</td>
+          <td >English</td>
+          <td rowspan="2">ICT<small>(double)</small></td>
+          <td >English</td>
+          <td >History</td>
+          <td >Free Period</td>
+        </tr>
+
+        <!-- 14:45 – 15:30  — ICT on Tue spans this row -->
+        <tr>
+          <td>14:45 – 15:30</td>
+          <td >Free Period</td>
+          <!-- ICT rowspan occupies Tuesday -->
+          <td >Mathematics</td>
+          <td >English</td>
+          <td  >kiswahili</td>
+        </tr>
+
+      </tbody>
+    </table>
+
+   
+
+  </div>
+
+  
+
+</body>
+</html>

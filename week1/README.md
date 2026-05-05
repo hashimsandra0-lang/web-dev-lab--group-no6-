@@ -1,5 +1,5 @@
 # web-dev-lab--group-no6-
-practicals for web development course
+** practicals for web development course.
 Objectives
 General Objective
 To design and develop a simple multi-page website using basic HTML concepts.
