@@ -1,0 +1,50 @@
+/* EXTERNAL CSS */
+
+/* Element selector */
+body {
+  background-color: cyan;
+  font-family: Times, serif;
+  font-size: 16px;
+
+}
+
+/* Element selector */
+p {
+  font-family:  'Times New Roman', Times, serif;
+}
+
+/* Element selector */
+img{
+  width: 200px;
+}
+
+/* Class selector */
+.section {
+ 
+  background-color:white;
+}
+
+/* Group selector */
+h1, h2, h3 {
+  color:black;
+}
+
+/* ID selector */
+#header {
+  background-color: #2c3e50;
+  color: white;
+ 
+  text-align: center;
+}
+
+/* Descendant selector */
+nav ul li a {
+  color: white;
+
+}
+
+/* Pseudo-class */
+nav ul li a:hover {
+  background-color: #e67e22;
+ 
+}
